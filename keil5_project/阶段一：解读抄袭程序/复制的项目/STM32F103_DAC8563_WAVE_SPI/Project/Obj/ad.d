@@ -1,0 +1,12 @@
+.\obj\ad.o: ..\User\AD.c
+.\obj\ad.o: ..\User\stm32f10x.h
+.\obj\ad.o: ..\CMSIS\CoreSupport\core_cm3.h
+.\obj\ad.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\ad.o: ..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h
+.\obj\ad.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h
+.\obj\ad.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+.\obj\ad.o: ..\User\stm32f10x.h
+.\obj\ad.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\obj\ad.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\obj\ad.o: ..\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\obj\ad.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h

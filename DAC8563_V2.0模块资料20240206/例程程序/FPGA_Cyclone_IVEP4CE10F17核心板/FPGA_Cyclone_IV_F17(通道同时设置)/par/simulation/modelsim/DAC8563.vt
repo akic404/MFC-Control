@@ -1,0 +1,37 @@
+`timescale 1 ps/ 1 ps
+module DAC8563_vlg_tst();
+
+reg [15:0] DATA;
+reg DATA_SEL;
+reg RST_N;
+reg SYS_CLK;
+// wires                                               
+wire MOSI;
+wire SCLK;
+wire SYNC;
+
+// assign statements (if any)                          
+DAC8563 i1 (
+// port map - connection between master ports and signals/registers   
+	.DATA(DATA),
+	.DATA_SEL(DATA_SEL),
+	.MOSI(MOSI),
+	.RST_N(RST_N),
+	.SCLK(SCLK),
+	.SYNC(SYNC),
+	.SYS_CLK(SYS_CLK)
+	
+);
+initial begin                                                  
+  RST_N = 0;
+ 	SYS_CLK = 1;
+	DATA = 16'd0;
+	#100;
+	RST_N = 1;
+end   
+                                                 
+always #1 SYS_CLK = ~SYS_CLK;    
+
+                                                
+endmodule
+

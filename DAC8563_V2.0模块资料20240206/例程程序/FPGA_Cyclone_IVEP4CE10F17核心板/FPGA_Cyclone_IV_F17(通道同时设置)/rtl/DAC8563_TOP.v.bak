@@ -1,0 +1,15 @@
+module DAC8563_TOP(
+	input		wire	SYS_CLK	,
+	input		wire	RST_N		,
+	output	wire	SYNC		,
+	output	wire	SCLK		,
+	output	wire	MOSI	  
+);
+
+
+
+ 
+
+
+endmodule
+

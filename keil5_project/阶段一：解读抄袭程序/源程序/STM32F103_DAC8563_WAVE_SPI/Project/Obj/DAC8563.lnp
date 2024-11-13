@@ -1,0 +1,20 @@
+--cpu Cortex-M3
+".\obj\main.o"
+".\obj\peripheralinit.o"
+".\obj\delay.o"
+".\obj\key.o"
+".\obj\lze_lcd.o"
+".\obj\spi.o"
+".\obj\dac8563.o"
+".\obj\misc.o"
+".\obj\stm32f10x_gpio.o"
+".\obj\stm32f10x_rcc.o"
+".\obj\stm32f10x_fsmc.o"
+".\obj\stm32f10x_spi.o"
+".\obj\core_cm3.o"
+".\obj\system_stm32f10x.o"
+".\obj\startup_stm32f10x_hd.o"
+--library_type=microlib --strict --scatter ".\Obj\DAC8563.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\DAC8563.map" -o .\Obj\DAC8563.axf

@@ -1,0 +1,198 @@
+Dependencies for Project 'DAC8563', Target 'DAC8563': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\User\main.c)(0x671DEF95)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+I (..\User\Delay.h)(0x64BF9D85)
+I (..\User\key.h)(0x64BF9D85)
+I (..\User\lze_lcd.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D3)
+I (..\User\Fonts\fonts.h)(0x64BF9D85)
+I (..\User\dac8563.h)(0x64BF9D85)
+I (..\User\PeripheralInit.h)(0x64BF9D85)
+I (..\User\AD.h)(0x625A84CE)
+F (..\User\PeripheralInit.c)(0x671DED1C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\peripheralinit.o --omf_browse .\obj\peripheralinit.crf --depend .\obj\peripheralinit.d)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+I (..\User\Delay.h)(0x64BF9D85)
+I (..\User\key.h)(0x64BF9D85)
+I (..\User\lze_lcd.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D3)
+I (..\User\Fonts\fonts.h)(0x64BF9D85)
+I (..\User\dac8563.h)(0x64BF9D85)
+I (..\User\PeripheralInit.h)(0x64BF9D85)
+I (..\User\AD.h)(0x625A84CE)
+F (..\User\Delay.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\delay.o --omf_browse .\obj\delay.crf --depend .\obj\delay.d)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+I (..\User\Delay.h)(0x64BF9D85)
+F (..\User\key.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\key.o --omf_browse .\obj\key.crf --depend .\obj\key.d)
+I (..\User\key.h)(0x64BF9D85)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+I (..\User\delay.h)(0x64BF9D85)
+F (..\User\lze_lcd.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\lze_lcd.o --omf_browse .\obj\lze_lcd.crf --depend .\obj\lze_lcd.d)
+I (..\User\lze_lcd.h)(0x64BF9D85)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D3)
+I (..\User\Fonts\fonts.h)(0x64BF9D85)
+I (..\User\Delay.h)(0x64BF9D85)
+I (..\User\./Fonts/font8.c)(0x64BF9D85)
+I (..\User\./Fonts/font12.c)(0x64BF9D85)
+I (..\User\./Fonts/font16.c)(0x64BF9D85)
+I (..\User\./Fonts/font20.c)(0x64BF9D85)
+I (..\User\./Fonts/font24.c)(0x64BF9D85)
+I (..\User\./Fonts/GB1616.c)(0x64BF9D85)
+I (..\User\./Fonts/GB2424.c)(0x64BF9D85)
+I (..\User\./Fonts/GB3232.c)(0x64BF9D85)
+F (..\User\spi.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\spi.o --omf_browse .\obj\spi.crf --depend .\obj\spi.d)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+I (..\User\spi.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D3)
+F (..\User\dac8563.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\dac8563.o --omf_browse .\obj\dac8563.crf --depend .\obj\dac8563.d)
+I (..\User\dac8563.h)(0x64BF9D85)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+I (..\User\spi.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D3)
+I (..\User\delay.h)(0x64BF9D85)
+F (..\User\AD.c)(0x671DE17E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\ad.o --omf_browse .\obj\ad.crf --depend .\obj\ad.d)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4D783BB4)
+F (..\STM32F10x_StdPeriph_Driver\src\misc.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\misc.o --omf_browse .\obj\misc.crf --depend .\obj\misc.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\stm32f10x_gpio.o --omf_browse .\obj\stm32f10x_gpio.crf --depend .\obj\stm32f10x_gpio.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\stm32f10x_rcc.o --omf_browse .\obj\stm32f10x_rcc.crf --depend .\obj\stm32f10x_rcc.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\stm32f10x_fsmc.o --omf_browse .\obj\stm32f10x_fsmc.crf --depend .\obj\stm32f10x_fsmc.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\stm32f10x_spi.o --omf_browse .\obj\stm32f10x_spi.crf --depend .\obj\stm32f10x_spi.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BF9D85)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\stm32f10x_adc.o --omf_browse .\obj\stm32f10x_adc.crf --depend .\obj\stm32f10x_adc.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+F (..\CMSIS\CoreSupport\core_cm3.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\core_cm3.o --omf_browse .\obj\core_cm3.crf --depend .\obj\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+F (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.c)(0x64BF9D85)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\CMSIS -I ..\CMSIS\CoreSupport -I ..\CMSIS\DeviceSupport\STM32F10x -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\User\Delay -I ..\User\CharLCD -I ..\User\PeripheralInit -I ..\User\Fonts-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\obj\system_stm32f10x.o --omf_browse .\obj\system_stm32f10x.crf --depend .\obj\system_stm32f10x.d)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x64BF9D85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DD)
+I (..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h)(0x64BF9D85)
+I (..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BF9D85)
+I (..\User\stm32f10x.h)(0x4D783CB4)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BF9D85)
+I (..\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BF9D85)
+F (..\CMSIS\DeviceSupport\STM32F10x\startup_stm32f10x_hd.s)(0x64BF9D85)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\cui\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 539" --pd "STM32F10X_MD SETA 1"--list .\list\startup_stm32f10x_hd.lst --xref -o .\obj\startup_stm32f10x_hd.o --depend .\obj\startup_stm32f10x_hd.d)

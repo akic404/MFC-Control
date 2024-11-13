@@ -1,0 +1,40 @@
+module DAC8563(
+	input		wire	SYS_CLK	,
+	input		wire	RST_N		,
+	output	wire	SYNC		,
+	output	wire	SCLK		,
+	output	wire	MOSI		,
+  output	wire	LDAC		,
+	output	wire	CLR			
+);
+	
+localparam delay_80ns  = ((50_000_000 / 12_500_000) / 2 ) - 1; //延时80ns	
+localparam delay_100ns = 2; //延时80ns	
+
+reg	[4 :0]  cycle_cnt	;
+reg	[3 :0]  delay_cnt	;
+
+reg	[3 :0]	STATE			;
+reg	[23:0]	SEND_DATA	;
+
+reg	[0 :0]	spi_sclk	;
+reg	[0 :0]	spi_mosi	;
+reg	[0 :0]	spi_sync	;
+reg	[0 :0]  spi_ldac	;
+reg	[0 :0]  spi_clr		;
+
+reg					up_data		;
+
+always@(posedge SYS_CLK or negedge RST_N)
+begin
+	
+end
+
+assign	spi_sclk = SCLK;
+assign	spi_mosi = MOSI;
+assign	spi_sync = SYNC;
+assign	spi_ldac = LDAC;
+assign	spi_clr  = CLR ;
+
+endmodule
+

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Jan 30 10:23:34 2024
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : DAC8563
+Top-level Entity Name : DAC8563_TOP
+Family : Cyclone IV E
+Total logic elements : 649
+    Total combinational functions : 479
+    Dedicated logic registers : 441
+Total registers : 441
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 3,072
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

@@ -1,0 +1,16 @@
+.\obj\dac8563.o: ..\User\dac8563.c
+.\obj\dac8563.o: ..\User\dac8563.h
+.\obj\dac8563.o: ..\User\stm32f10x.h
+.\obj\dac8563.o: ..\CMSIS\CoreSupport\core_cm3.h
+.\obj\dac8563.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\dac8563.o: ..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h
+.\obj\dac8563.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h
+.\obj\dac8563.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+.\obj\dac8563.o: ..\User\stm32f10x.h
+.\obj\dac8563.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\obj\dac8563.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\obj\dac8563.o: ..\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\obj\dac8563.o: ..\User\spi.h
+.\obj\dac8563.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\obj\dac8563.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\dac8563.o: ..\User\delay.h
